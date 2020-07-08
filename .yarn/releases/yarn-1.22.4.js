@@ -91797,7 +91797,7 @@ wercker.yml
 				codeCache[ name ] = { on: on, off: off };
 			}
 
-			//https://github.com/Marak/colors.js/blob/master/lib/styles.js
+			//https://github.com/Marak/colors.js/blob/HEAD/lib/styles.js
 			addToCodeCache( 'bold', 1, 22 );
 			addToCodeCache( 'italics', 3, 23 );
 			addToCodeCache( 'underline', 4, 24 );
@@ -109930,7 +109930,7 @@ wercker.yml
 				clientAuth: '1.3.6.1.5.5.7.3.2',
 				codeSigning: '1.3.6.1.5.5.7.3.3',
 
-				/* See https://github.com/joyent/oid-docs/blob/master/root.md */
+				/* See https://github.com/joyent/oid-docs/blob/HEAD/root.md */
 				joyentDocker: '1.3.6.1.4.1.38678.1.4.1',
 				joyentCmon: '1.3.6.1.4.1.38678.1.4.2',
 			};
@@ -112551,7 +112551,7 @@ threshold'
 				// date-time: http://tools.ietf.org/html/rfc3339#section-5.6
 				time: /^[0-2]\d:[0-5]\d:[0-5]\d(?:\.\d+)?(?:z|[+-]\d\d:\d\d)?$/i,
 				'date-time': /^\d\d\d\d-[0-1]\d-[0-3]\d[t\s][0-2]\d:[0-5]\d:[0-5]\d(?:\.\d+)?(?:z|[+-]\d\d:\d\d)$/i,
-				// uri: https://github.com/mafintosh/is-my-json-valid/blob/master/formats.js
+				// uri: https://github.com/mafintosh/is-my-json-valid/blob/HEAD/formats.js
 				uri: /^(?:[a-z][a-z0-9+-.]*)(?::|\/)\/?[^\s]*$/i,
 				'uri-reference': /^(?:(?:[a-z][a-z0-9+-.]*:)?\/\/)?[^\s]*$/i,
 				'uri-template': URITEMPLATE,
@@ -170358,7 +170358,7 @@ empty list will be returned. A validation error will have two properties:
 				//   - increase nc (not necessarily?)
 				// For reference:
 				// http://tools.ietf.org/html/rfc2617#section-3
-				// https://github.com/bagder/curl/blob/master/lib/http_digest.c
+				// https://github.com/bagder/curl/blob/HEAD/lib/http_digest.c
 
 				var self = this;
 
